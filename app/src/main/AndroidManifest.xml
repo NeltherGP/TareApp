@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nelther.recycleviewapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:theme="@style/SplashTheme"
+            android:name=".inicio"
+            android:label="TareApp" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".tareas.UpdateTarea"
+            android:label="Editar Tarea" >
+        </activity>
+        <activity
+            android:name=".profesor.updateProfesor"
+            android:label="Editar Profesor" >
+        </activity>
+        <activity
+            android:name=".materia.UpdateMateria"
+            android:label="Editar Materia" >
+        </activity>
+        <activity
+            android:name=".InicioActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+
+        </activity>
+        <activity android:name=".AcercaDe"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            android:label="Desarrollado por: "  >
+
+        </activity>
+        <activity
+            android:name=".tareas.AddTarea"
+            android:label="Tarea Nueva" >
+        </activity>
+        <activity
+            android:name=".profesor.addProfesor"
+            android:label="Profesor Nuevo" >
+        </activity>
+        <activity
+            android:name=".materia.addMateria"
+            android:label="Materia Nueva" >
+        </activity>
+        <activity
+            android:name=".tareas.VerTarea"
+            android:label="Tarea"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
+
+        <receiver android:name=".AlarmReceiver" >
+            <intent-filter>
+                <action android:name="es.carlos_garcia.tutoriales.android.alarmmanager" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".verProfesor"
+            android:label="Profesor"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".materia.VerMateria"
+            android:label="@string/title_activity_ver_materia"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>

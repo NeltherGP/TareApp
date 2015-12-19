@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TareApp(Online)</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_tarea">AddTarea</string>
+    <string name="str_nombre_tarea">Nombre de la Tarea</string>
+    <string name="str_descripcion">Descripcion</string>
+    <string name="str_fecha_entrega">Fecha de Entrega</string>
+    <string name="title_activity_ver_profesor">verProfesor</string>
+    <string name="title_activity_ver_materia">VerMateria</string>
+
+    <string name="title_activity_inicio">inicio</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

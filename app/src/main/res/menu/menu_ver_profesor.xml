@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nelther.recycleviewapp.verProfesor">
+
+    <item android:id="@+id/enviarProfesor"
+        android:title="action_mail"
+        android:icon="@android:drawable/ic_menu_send"
+        app:showAsAction="always|collapseActionView"/>
+    <item
+        android:id="@+id/eliminarProfesor"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="eliminar"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/actualizarProfesor"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="actualizar"
+        app:showAsAction="ifRoom"/>
+
+</menu>
